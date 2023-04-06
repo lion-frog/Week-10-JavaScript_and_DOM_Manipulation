@@ -1,0 +1,23 @@
+{
+  "name": "week-10-javascript_and_dom_manipulation",
+  "version": "1.0.0",
+  "description": "Coding Steps: Using HTML, Bootstrap, and JavaScript create a single page website that contains the following: A Bootstrap styled table representing your choice of data. A Bootstrap styled form that allows a user to add a new row to the table when clicking on submit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lion-frog/Week-10-JavaScript_and_DOM_Manipulation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lion-frog/Week-10-JavaScript_and_DOM_Manipulation/issues"
+  },
+  "homepage": "https://github.com/lion-frog/Week-10-JavaScript_and_DOM_Manipulation#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.6.4"
+  }
+}
