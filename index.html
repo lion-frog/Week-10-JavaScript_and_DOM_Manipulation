@@ -5,12 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="shortcut icon" href="#">
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.css"
     />
   </head>
   <body>
+    <body class="container p-4 bg-dark">
+        <!-- Preffered Name label and input  -->
+    <div class="card-fluid bg-dark text-info">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-sm">
+              <div class="form-group">
+                <label for="name">Preffered Name</label>
+                <input type="text" class="form-control" id="pref-name" required />
+  <!-- Age label and input-->
+            </div>
+          </div>
+            <div class="col-sm">
+              <div class="form-group">
+                <label for="age">Age</label>
+                <input type="text" class="form-control" id="age" required />
+  
+  <!-- Favorite Color label and input -->
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <div class="form-group">
+                <label for="fav-num">Favorite Color</label>
+                <input type="text" class="form-control" id="fav-col" required />
+  
+  <!-- Sumbit Input -->
+              </div>
+            </div>
+            <div class="col-sm">
+  
+            </div>
+          </div>
+          <button id="btn" class="btn btn-primary mt-3">Submit</button>
+        </div>
+      </div>
+    </div>
+  <table id="list" class="table table-info table-striped" >
+  <thead>
+    <tr>
+    <th>#</th>
+    <th>Preffered Name</th>
+    <th>Age</th>
+    <th>Favorite Color</th>
+    </tr>
+  </thead>
+  
+  
+  </table>
+  
+  <script src="scripts.js"></script>
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
